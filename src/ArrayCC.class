@@ -1,0 +1,22 @@
+import java.util.*;
+public class ArrayCC{
+    public static int getLargest(int number[]){
+        int largest = Integer.MIN_VALUE;
+
+        for (int i=0;i<numbers.length;i++){
+            if(larrgest<numbers[i]){
+                largest=number[i];
+            }
+        }
+
+        return largest;
+    }
+}
+
+
+    public static void main(String args[]) {
+        
+        int numbers[]={1,2,3,4,5};
+        System.out.println("largest value is :"+ getLargest(number));
+        
+    }
